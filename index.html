@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+  <title>Portafolio J.Fray</title>
+
+  <link rel="stylesheet" href="main.css">
+
+</head>
+<body  >
+  
+<!--Menu Html-->
+<div class="contenedor-header"> 
+  
+  <header>
+    <div class="log">
+      <a href="#">JORSHUA / DEV-JR</a>
+    </div>
+    <nav id="nav">
+      <ul>
+        <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+        <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+        <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+        <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+        <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+        <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+      </ul>
+    </nav>
+    <div class="nav-responsitive" onclick="mostrarOcultarMenu()">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+  </header>
+</div>
+  
+ <!--Seccion Inicio--> 
+
+ <section id="inicio" class="inicio">
+    <div class="contenedor-banner">
+      <div class="contenedor-img">
+        <img src="imagen/imj.png" alt="">
+      </div>
+      <h1>Jorshua Fray</h1>
+      <h2>Desarrollador de Sotfware-Estudiante</h2>
+       <!-- <div class="redes">
+        <a href="https://instagram.com/jorsh.2?igshid=ZDdkNTZiNTM="> <i class="fa-brands fa-instagram"></i></a>
+         <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+         <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+      </div>--> 
+    
+    </div>
+
+
+
+ </section>
+
+ <!--Seccion sobre mi-->
+
+ <section id="sobremi" class="sobremi">
+  <div class="contenido-seccion">
+    <h2>Sobre Mi</h2>
+    <p><span>Como estudiante de desarrollo de software, progreso
+       habilidades notables que me impulsan a querer aprender cada vez mas.
+        El enfoque proactivo y autodidacta para el aprendizaje me
+         ha permitido destacar en mis estudios y más allá. 
+         La capacidad para adaptarme rápidamente a las nuevas tecnologías
+          y absorber información a un ritmo rápido es verdaderamente impresionante. 
+          puedo poseer una habilidad muy conveniente para resolver problemas con facilidad y eficiencia, 
+          a menudo encontrando soluciones creativas a desafíos complejos en el menor tiempo posible. La 
+          pasión por el desarrollo de software, junto con mis talentos naturales y excepcional ética de trabajo,
+           me convierten en un posible activo valioso para cualquier equipo u organización.</p>
+     
+    <div class="fila">
+      <!--Datos personales-->
+       <div class="col">
+            <h3>Datos personales</h3>
+            <ul>
+              <li>
+                <strong>Nacimiento</strong>
+                27-08-2003
+              </li>
+              <li>
+                <strong>Telefono</strong>
+                +507 6011-5422
+              </li>
+              <li>
+                <strong>Email</strong>
+                naelfray@gmail.com
+              </li>
+              <li>
+                <strong>Dirección</strong>
+                 Panama City- Rep. de Panamà
+              </li>
+              <li>
+                <strong>Perfil Actual</strong>
+                <ol> 
+                  <li>Tecnico Informatico - Artes y O. MLV </li>
+                  <li>Universidad Tecnologica de Panamà </li>
+                  <li>Desarrollador de Sotfware-Estudiante 2º año</li>
+                </ol>
+              </li>
+            </ul>
+       </div>
+       <!--interes-->
+       <div class="col">
+         <h3>Intereses</h3>
+         <div class="contenedor-intereses">
+          
+          <div class="interes">
+            <i class="fa-sharp fa-solid fa-laptop-code"></i>
+            <span>TECNOLOGIA</span>
+          </div>
+
+          <div class="interes">
+            <i class="fa-solid fa-planet-moon"></i>
+            <span>ASTRONOMÍA</span>
+          </div>
+         
+          <div class="interes">
+            <i class="fa-duotone fa-book"></i>
+            <span>LIBROS</span>
+          </div>
+          
+          <div class="interes">
+            <i class="fa-light fa-popcorn"></i>
+            <span>PELICULAS</span>
+          </div>
+
+
+         </div>
+       </div>
+    </div>
+
+  
+
+    </div>
+ </section>
+
+ <!--Seccion Skills-->
+
+ <section class="skills" id="skills">
+  <div class="contenido-seccion">
+    <h2>Skills</h2>
+    <div class="fila">
+      <!--Tecnical Skills-->
+      <div class="col">
+        <h3>HABILIDADES TECNICAS</h3>
+        <div class="skill">
+          <span>Javascript</span>
+          <div class="barra-skill">
+            <div class="progreso ">
+              <span>10%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>Html & Css</span>
+          <div class="barra-skill">
+            <div class="progreso">
+              <span>50%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>JAVA</span>
+          <div class="barra-skill">
+            <div class="progreso">
+              <span>70%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>MASHINE LEARNING</span>
+          <div class="barra-skill">
+            <div class="progreso">
+              <span>60%</span>
+            </div>
+          </div>
+        </div>
+      <!--   <div class="skill">
+          <span>Ja</span>
+          <div class="barra-skill">
+            <div class="progreso ">
+              <span>10%</span>
+            </div>
+          </div>
+        </div>-->
+      </div>
+    </div>
+  </div>
+ </section>
+
+<!--sECCION CURRICULUM--> 
+<section id="curriculum" class="curriculum">
+  <div class="contenido-seccion">
+    <h2>Curriculum</h2>
+    <div class="fila">
+      <div class="col derecha">
+        <h3>Educacion</h3>
+        <div class="item izq">
+          <h4>Tecnico en Informatica</h4>
+          <span class="casa">Colegio Artes y Oficios "MLV"</span>
+          <span class="fecha">2019-2021</span>
+           <p>Por lo general, un técnico de informática es un 
+            profesional que tiene el título de sistemas microinformáticos 
+            y redes es un profesional capaz de instalar, configurar y mantener
+             sistemas microinformáticos, aislados o en red, así como redes locales
+              en pequeños entornos.</p>
+          <div class="conteri">
+            <div class="circuloi"></div>
+          </div>
+          </div>
+          <div class="item izq">
+            <h4>Lic. Desarrollo de sotfware</h4>
+            <span class="casa">UNIVERSIDAD TECNOLOGICA DE PANAMÁ</span>
+            <span class="fecha">2022-ACTUALIDAD</span>
+             <p>La Licenciatura en Desarrollo de Software busca suplir 
+              las necesidades de las organizaciones o empresas de Software 
+              de tipo Administrativo, Comercial, Financiero y de Mercadotecnia,
+               entre otros.</p>
+            <div class="conteri">
+              <div class="circuloi"></div>
+            </div>
+            </div>
+            <div class="item izq">
+              <h4>CERTIFICACION DE INTELIGENCIA ARTIFICIAL</h4>
+              <span class="casa"> SAMSUNG INNOVATION CAMPUS</span>
+              <span class="fecha">2022-2023</span>
+               <p>CERTIFICACION EN INTELIGENCIA ARTIFICIAL Y PROGRAMACION
+
+                Samsung Innovation Campus ofrece un plan de estudios
+                 que cubre las habilidades prácticas requeridas
+                  para cualquier trabajo en profesiones emergentes relacionadas
+                  con la tecnología.  Desde 2020, SIC ha sido implementado en varios
+                  países en todo el mundo con 35,802 estudiantes.
+               </p>
+              <div class="conteri">
+                <div class="circuloi"></div>
+              </div>
+              </div>
+      </div>
+      <div class="col izquierda">
+        <h3>Experiencia</h3>
+        <div class="item izq">
+          <h4></h4>
+          <span class="casa"></span>
+          <span class="fecha"></span>
+           <p></p>
+          <div class="conterd">
+            <div class="circuloi"></div>
+          </div>
+          </div>
+          <div class="item izq">
+            <h4></h4>
+            <span class="casa"></span>
+            <span class="fecha"></span>
+             <p></p>
+            <div class="conteri">
+              <div class="circuloi"></div>
+            </div>
+            </div>
+            <div class="item izq">
+              <h4></h4>
+              <span class="casa"></span>
+              <span class="fecha"></span>
+               <p></p>
+              <div class="conteri">
+                <div class="circuloi"></div>
+              </div>
+              </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Seccion Portafolio-->
+
+<section id="portafolio" class="portafolio">
+  <div class="contenido-seccion">
+    <h2>Portafolio/Proyectos</h2>
+    <div class="galeria">
+      <div class="proyecto">
+        <img src= "imagen/IA.jpeg" alt="">
+        <div class="overlay">
+          <h3>Grupo de Investigacion IA-UTP</h3>
+          <p>fotografia</p>
+          <a href="https://utp.ac.pa/crean-grupo-de-trabajo-en-inteligencia-artificial-ia">Visit the UTP website</a>
+        </div>
+      </div>
+    <!--   <div class="royecto">
+        <img src= k alt="">
+        <div class="overlay">
+          <h3>Diseños Creativos</h3>
+          <p>fotografias</p>
+        </div>
+      </div>
+     <div class="proyecto">
+        <img src=k alt="">
+        <div class="overlay">
+          <h3>Diseños Creativos</h3>
+          <p>fotografias</p>
+        </div>
+      </div>
+      <div class="proyecto">
+        <img src= k  alt="">
+        <div class="overlay">
+          <h3>Diseños Creativos</h3>
+          <p>fotografias</p>
+        </div>
+      </div>
+      <div class="proyecto">
+        <img src= k alt="">
+        <div class="overlay">
+          <h3>Diseños Creativos</h3>
+          <p>fotografias</p>
+        </div>
+      </div>
+      <div class="proyecto">
+        <img src= k alt="">
+        <div class="overlay">
+          <h3>Diseños Creativos</h3>
+          <p>fotografias</p>
+        </div>
+      </div>-->
+    </div>
+  </div>
+</section>
+
+<!--Seccion contacto-->
+
+<!-- <section id="contacto" class="contacto">
+  <div class="contenido-seccion">
+      <h2>CONTACTO</h2>
+      <div class="fila">
+          Formulario 
+          <div class="col">
+              <input type="text" placeholder="Tú Nombre">
+              <input type="text" placeholder="Número telefónico">
+              <input type="text" placeholder="Dirección de correo">
+              <input type="text" placeholder="Tema">
+              <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+              <button>
+                  Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                  <span class="overlay"></span>
+              </button>
+          </div>
+          Mapa 
+          <div class="col">
+             
+              <div class="info">
+                  <ul>
+                      <li>
+                          <i class="fa-solid fa-location-dot"></i>
+                          Panama, Panama Oeste , Arraijan , Veracruz #50
+                      </li>
+                      <li>
+                          <i class="fa-solid fa-mobile-screen"></i>
+                          Llamame: +507 6011-5422 
+                      </li>
+                      <li>
+                          <i class="fa-solid fa-envelope"></i>
+                          Email: naelfray@gmail.com
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>-->
+
+<!-- footer -->
+<footer>
+  <a href="#inicio" class="arriba">
+      <i class="fa-solid fa-angles-up"></i>
+  </a>
+  <div class="redes">
+      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-skype"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="#"><i class="fa-solid fa-rss"></i></a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
